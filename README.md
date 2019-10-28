@@ -13,4 +13,4 @@ docker-compose up
 ```
 Pobrane zostaną gotowe obrazy oraz uruchomione kontenery zawierające kompletne środowisko uruchomieniowe Wordpress'a. Katalog `/var/www/html` z kontenera z Wordpress'em zostanie zmapowany do katalogu bieżącego na komputerze host'a. Ułatwi to edycję plików źródłowych strony przy użyciu edytora z funkcją zdalnej edycji plików (np. [Visual Studio Code]() + Remote Explorer)
 ## Pierwsze uruchomienie
-W przeglądarce należy otworzyć stronę http://<hostname-albo>-adres-ip-servera>:8080 oraz dokończyć instalację Wordpress'a.
+W przeglądarce należy otworzyć stronę http://\<hostname-albo-adres-ip-servera\>:8080 oraz dokończyć instalację Wordpress'a.
