@@ -15,8 +15,8 @@ Pobrane zostaną gotowe obrazy oraz uruchomione kontenery zawierające kompletne
 ## Pierwsze uruchomienie
 W przeglądarce należy otworzyć stronę `http://<hostname-albo-adres-ip-servera>:8080` oraz dokończyć instalację Wordpress'a.
 ## Uruchomienie kilku instancji w jednym środowisku
-Istnieje możliwość uruchomienia kilku instancji Wordpress'a na jednym serwerze. W tym celu należy pobrać skrypt docker-compose do osobnego katalogu
+Istnieje możliwość uruchomienia kilku instancji Wordpress'a na jednym serwerze. W tym celu należy pobrać skrypt docker-compose do osobnego katalogu np:
 ```
 git clone https://github.com/tszulist/wpsite.git wpsite2
 ```
-oraz zmienić port dla serwera www z domyślnej wartości `8080` na np: `8888`
+oraz zmienić port dla serwera WWW z domyślnej wartości `8080` na np: `8888`
