@@ -20,3 +20,5 @@ Istnieje możliwość uruchomienia kilku instancji Wordpress'a na jednym serwerz
 git clone https://github.com/tszulist/wpsite.git wpsite2
 ```
 oraz zmienić port dla serwera WWW z domyślnej wartości `8080` na np: `8888`
+## Zatrzymanie i ususnięcie środowiska
+W celu zatrzymania obu kontenerów (baza danych oraz serwer WWW) należy wykonać polecenie `docker-compose stop`. Jeżeli potrzebne będzie ponowne uruchomienie całego środowiska przydatne będzie polecenie `docker-compose restart`. Polecenie `docker-compose down` powoduje zatrzymanie oraz usunięcie obu kontenerów składających się na środowisko. Uwaga! W tym przypadku wszelkie zmiany zostaną nieodwracalnie utracone (o ile nie zostały przechowane np. w zewnętrzynym repozytorium Git)
